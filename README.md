@@ -24,6 +24,7 @@ operations, and machine-learning API workflows.**
 -   [Getting started](#getting-started)
 -   [Running examples](#running-examples)
 -   [Visual guides](#visual-guides)
+-   [Detailed learning notes](docs/learning-notes.md)
 -   [Notes](#notes)
 -   [Author](#author)
 
@@ -267,6 +268,24 @@ route or startup command.
 This is a conceptual diagram to help organize the learning topics. It is
 not a claim that every example implements every stage in exactly this
 way.
+
+
+### More architecture and workflow diagrams
+
+These additional diagrams expand the original repository overview with
+the concepts covered in the accompanying study notes.
+
+![API request and response](assets/api-request-response.png)
+
+![Monolithic architecture layers](assets/monolithic-layers.png)
+
+![WSGI and ASGI comparison](assets/wsgi-asgi.png)
+
+![FastAPI machine-learning pipeline](assets/fastapi-ml-pipeline.png)
+
+For the written explanations, examples, HTTP methods, path and query
+parameters, status codes, Pydantic validation, and ML serving workflow,
+continue to the [detailed learning notes](docs/learning-notes.md).
 
 ## Notes
 
